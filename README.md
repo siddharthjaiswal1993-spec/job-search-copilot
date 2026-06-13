@@ -1,6 +1,6 @@
 # Job Search Copilot
 
-An AI-native job search management tool built for a Staff/Principal PM job hunt — covering discovery, AI fit scoring, application pack generation, and pipeline tracking in a single self-hosted app.
+An AI-native job search management tool — covering discovery, AI fit scoring, application pack generation, and pipeline tracking in a single self-hosted app.
 
 > Built by Siddharth Jaiswal. See [`docs/`](./docs/) for the full PRD, product strategy, and AI eval framework.
 
@@ -195,3 +195,17 @@ LinkedIn, GitHub, portfolio URLs stored per-user. Injected into application pack
 - [Product Strategy](./docs/STRATEGY.md)
 - [AI Eval Framework](./docs/EVALS.md)
 - [Architecture Overview](./docs/ARCHITECTURE.md)
+
+---
+
+## What I Built
+
+| Artifact | Description |
+|---|---|
+| Functional Next.js app | Full-stack implementation — Supabase + Claude API, 9 pages, 11 API routes, job board connectors for Greenhouse, Lever, and Ashby |
+| 4 product docs | PRD, product strategy, AI eval framework, and architecture overview in `docs/` |
+| Standard portfolio docs | PORTFOLIO_AUDIT, PRODUCT_THESIS, WHAT_I_BUILT, OUTCOME_MODEL, AI_PRODUCT_JUDGMENT |
+
+---
+
+*Built by Siddharth Jaiswal — [linkedin.com/in/sidjais](https://linkedin.com/in/sidjais)*

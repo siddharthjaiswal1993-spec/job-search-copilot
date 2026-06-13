@@ -52,38 +52,38 @@ The deeper problem: generic AI writing tools produce generic output. A Senior PM
 
 ### Discovery
 
-- As Siddharth, I want to add a target company and have it auto-pull PM job postings from their public job board so I don't have to check each careers page manually.
-- As Siddharth, I want discovered jobs filtered to PM-relevant titles so I don't have to manually scan engineering / design postings.
-- As Siddharth, I want deduplication so the same job doesn't appear twice if I check a company multiple times.
-- As Siddharth, I want a daily digest view so I can see what's new and what needs attention in one place.
+- As a user, I want to add a target company and have it auto-pull PM job postings from their public job board so I don't have to check each careers page manually.
+- As a user, I want discovered jobs filtered to PM-relevant titles so I don't have to manually scan engineering / design postings.
+- As a user, I want deduplication so the same job doesn't appear twice if I check a company multiple times.
+- As a user, I want a daily digest view so I can see what's new and what needs attention in one place.
 
 ### AI Scoring
 
-- As Siddharth, I want a single fit score (0–100) for each job so I can prioritize quickly without reading every JD.
-- As Siddharth, I want to see sub-scores (seniority, AI signal, domain, enterprise SaaS, location) so I understand *why* a role scored the way it did.
-- As Siddharth, I want a clear recommendation (Apply / Maybe / Skip) with a written rationale so I can make apply / no-apply decisions in seconds.
-- As Siddharth, I want the scoring to account for my actual resume, not just a static profile, so scores improve as I update my resume in the app.
-- As Siddharth, I want positioning angle and risk flags per job so I know how to frame myself and what to watch for in the interview process.
+- As a user, I want a single fit score (0–100) for each job so I can prioritize quickly without reading every JD.
+- As a user, I want to see sub-scores (seniority, AI signal, domain, enterprise SaaS, location) so I understand *why* a role scored the way it did.
+- As a user, I want a clear recommendation (Apply / Maybe / Skip) with a written rationale so I can make apply / no-apply decisions in seconds.
+- As a user, I want the scoring to account for my actual resume, not just a static profile, so scores improve as I update my resume in the app.
+- As a user, I want positioning angle and risk flags per job so I know how to frame myself and what to watch for in the interview process.
 
 ### Application Pack Generation
 
-- As Siddharth, I want to generate a complete application pack (resume summary, bullets, cover letter, LinkedIn messages, referral note, form answers, portfolio recs) in one click so I can apply in under 30 minutes.
-- As Siddharth, I want the generated cover letter to sound like I wrote it — not passive, not sycophantic, not AI-ish — so it doesn't get filtered by a savvy recruiter.
-- As Siddharth, I want to inline-edit any generated asset so I can refine it without leaving the app.
-- As Siddharth, I want to copy any asset to clipboard instantly and download the full pack as a .docx so I can use it across different application portals.
-- As Siddharth, I want the resume bullets to mirror the structure of my actual resume so generated content plugs in with minimal reformatting.
+- As a user, I want to generate a complete application pack (resume summary, bullets, cover letter, LinkedIn messages, referral note, form answers, portfolio recs) in one click so I can apply in under 30 minutes.
+- As a user, I want the generated cover letter to sound like I wrote it — not passive, not sycophantic, not AI-ish — so it doesn't get filtered by a savvy recruiter.
+- As a user, I want to inline-edit any generated asset so I can refine it without leaving the app.
+- As a user, I want to copy any asset to clipboard instantly and download the full pack as a .docx so I can use it across different application portals.
+- As a user, I want the resume bullets to mirror the structure of my actual resume so generated content plugs in with minimal reformatting.
 
 ### Pipeline Management
 
-- As Siddharth, I want to move a job through statuses (Saved → Applied → Screening → Interviewing → Offered / Rejected / Archived) so I have a clear view of where everything stands.
-- As Siddharth, I want a dashboard summary of my pipeline so I can see at a glance how many roles are in each stage and what my overall funnel looks like.
-- As Siddharth, I want to filter my job inbox by status, recommendation, and fit score so I can surface the roles that need attention right now.
+- As a user, I want to move a job through statuses (Saved → Applied → Screening → Interviewing → Offered / Rejected / Archived) so I have a clear view of where everything stands.
+- As a user, I want a dashboard summary of my pipeline so I can see at a glance how many roles are in each stage and what my overall funnel looks like.
+- As a user, I want to filter my job inbox by status, recommendation, and fit score so I can surface the roles that need attention right now.
 
 ### Profile
 
-- As Siddharth, I want to paste my full resume into the app so that scoring and application generation use my actual experience and not a generic profile.
-- As Siddharth, I want to save my portfolio, GitHub, and LinkedIn URLs so they're automatically included in generated application packs.
-- As Siddharth, I want to save a default cover letter template that the AI can use as a stylistic reference.
+- As a user, I want to paste my full resume into the app so that scoring and application generation use my actual experience and not a generic profile.
+- As a user, I want to save my portfolio, GitHub, and LinkedIn URLs so they're automatically included in generated application packs.
+- As a user, I want to save a default cover letter template that the AI can use as a stylistic reference.
 
 ---
 
