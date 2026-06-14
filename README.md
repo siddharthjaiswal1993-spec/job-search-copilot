@@ -1,6 +1,8 @@
 # Job Search Copilot
 
-An AI-native job search management tool built for a Staff/Principal PM job hunt — covering discovery, AI fit scoring, application pack generation, and pipeline tracking in a single self-hosted app.
+Job search management and AI application toolkit — job discovery, fit scoring, application pack generation, and pipeline tracking in a single self-hosted app.
+
+**Status:** Working App · Next.js + Supabase + Claude API · Real implementation, not a prototype
 
 > Built by Siddharth Jaiswal. See [`docs/`](./docs/) for the full PRD, product strategy, and AI eval framework.
 
@@ -195,3 +197,31 @@ LinkedIn, GitHub, portfolio URLs stored per-user. Injected into application pack
 - [Product Strategy](./docs/STRATEGY.md)
 - [AI Eval Framework](./docs/EVALS.md)
 - [Architecture Overview](./docs/ARCHITECTURE.md)
+
+---
+
+## Build / Maintain / Improve / Kill
+
+**Build** — Real-time job board monitoring with change detection and application status webhooks. The current implementation polls on demand; a production system would surface new high-fit roles immediately without user-initiated refresh.
+
+**Maintain** — The 6-dimension scoring model and the EVALS.md quality framework. Calibrate dimension weights quarterly against actual application outcomes (which roles led to interviews vs. not). The model should learn from results, not just from subjective judgment.
+
+**Improve** — Feedback loop from application outcomes back into the scoring model. If roles scored "Apply" consistently lead to rejections at screening, the model needs recalibration. This is the most important improvement for the system to get smarter over time.
+
+**Kill** — Any asset in the application pack that the user consistently rewrites from scratch. If the cover letter is always rewritten, the prompt needs redesign — not just iteration. Track edit rate per asset type and treat high edit rates as a quality signal, not normal usage.
+
+---
+
+*Uses the user's own resume and job descriptions as inputs — no synthetic data in production use.*
+
+## What I Built
+
+| Artifact | Description |
+|---|---|
+| Functional Next.js app | Full-stack implementation — Supabase + Claude API, 9 pages, 11 API routes, job board connectors for Greenhouse, Lever, and Ashby |
+| 4 product docs | PRD, product strategy, AI eval framework, and architecture overview in `docs/` |
+| Standard portfolio docs | PORTFOLIO_AUDIT, PRODUCT_THESIS, WHAT_I_BUILT, OUTCOME_MODEL, AI_PRODUCT_JUDGMENT |
+
+---
+
+*Built by Siddharth Jaiswal — [linkedin.com/in/sidjais](https://linkedin.com/in/sidjais)*
