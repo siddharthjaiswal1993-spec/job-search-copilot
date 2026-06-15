@@ -57,7 +57,7 @@ The following test cases can be run manually against the scoring endpoint by cre
 | fit_score | 90–98 |
 | recommendation | apply |
 
-**Pass criteria:** All dimensions within range. `fit_reason` mentions AI governance or eval infrastructure. `positioning_angle` references Siddharth's AI product experience. `risks` is not empty.
+**Pass criteria:** All dimensions within range. `fit_reason` mentions AI governance or eval infrastructure. `positioning_angle` references the candidate's AI product experience. `risks` is not empty.
 
 ---
 
@@ -169,7 +169,7 @@ Application pack quality is evaluated across four dimensions:
 |---|---|---|
 | **Voice** | Reads like a senior PM wrote it. Active. Direct. Specific. | Em-dashes, "I am passionate about", passive constructions, AI-ish hedging |
 | **Role specificity** | References specific company, role title, or JD signals | Generic content that could apply to any PM role at any company |
-| **Structural compliance** | Cover letter: 3 paragraphs, opens with "Dear Hiring Team at [company]," closes with "Regards,\nSiddharth" | Missing sign-off, wrong paragraph count, formal salutations like "To Whom It May Concern" |
+| **Structural compliance** | Cover letter: 3 paragraphs, opens with "Dear Hiring Team at [company]," closes with "Regards,\n[Candidate Name]" | Missing sign-off, wrong paragraph count, formal salutations like "To Whom It May Concern" |
 | **Seniority signal** | Bullets and cover letter language signal staff-level scope (defines roadmaps, drives cross-functional delivery, works with C-suite) | Language that reads junior ("assisted with", "helped to", "participated in") |
 
 ### 2.2 Voice eval rubric (per asset)
@@ -196,7 +196,7 @@ For every generated application pack, verify:
 - [ ] Paragraph 1 references something specific about the company or role (not generic)
 - [ ] Paragraph 2 maps ≥ 2 specific achievements to ≥ 2 role requirements
 - [ ] Paragraph 3 is confident about next steps (not "I hope to hear from you")
-- [ ] Closes with: `Regards,\nSiddharth`
+- [ ] Closes with: `Regards,\n[Candidate Name]`
 - [ ] Does NOT contain any em-dashes (—)
 - [ ] Does NOT start any paragraph with "I"
 
